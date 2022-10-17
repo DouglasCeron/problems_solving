@@ -110,4 +110,6 @@ class LinkedList<E> {
     node.next = node.next?.next;
     return value;
   }
+
+  void printReverse() {}
 }
